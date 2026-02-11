@@ -14,38 +14,44 @@ The application is designed to be reproducible, extensible, and deployment-ready
 # Key Features
 
 1- Mixed Reality user interface using MRTK
+
 2- UWP-compatible build pipeline (IL2CPP, ARM64)
+
 3- Optional visual overlay for model input/output
+
 4- Toggle-based UI controls for enabling/disabling overlays
+
 5- Confidence visualization (e.g., confidence label)
+
 6- OpenXR-based XR configuration (no legacy XR)
+
 7- Fully documented build and deployment steps
 
-🏗️ System Architecture
+# System Architecture
 
-Main components:
+## Main components:
 
-Unity Engine – Core application logic and rendering
+1- Unity Engine – Core application logic and rendering
 
-MRTK Foundation – Input, spatial interaction, UI
+2- MRTK Foundation – Input, spatial interaction, UI
 
-OpenXR Plugin – XR runtime abstraction
+3- OpenXR Plugin – XR runtime abstraction
 
-UWP Build Target – HoloLens deployment
+4- UWP Build Target – HoloLens deployment
 
-Visual Studio 2022 – App packaging and deployment
+5- Visual Studio 2022 – App packaging and deployment
 
-High-level flow:
+## High-level flow:
 
-Unity scene initializes MRTK and OpenXR
+1- Unity scene initializes MRTK and OpenXR
 
-User interacts with UI elements (toggles, buttons)
+2- User interacts with UI elements (toggles, buttons)
 
-Visual overlays and classification results are rendered
+3- Visual overlays and classification results are rendered
 
-Application is built via IL2CPP for ARM64
+4- Application is built via IL2CPP for ARM64
 
-Visual Studio generates UWP AppX/MSIX packages
+5- Visual Studio generates UWP AppX/MSIX packages
 
 🧰 Requirements
 Software
