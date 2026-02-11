@@ -13,19 +13,19 @@ The application is designed to be reproducible, extensible, and deployment-ready
 
 ## 2- Key Features
 
-+ Mixed Reality user interface using MRTK
+1. Mixed Reality user interface using MRTK
 
-+ UWP-compatible build pipeline (IL2CPP, ARM64)
+2. UWP-compatible build pipeline (IL2CPP, ARM64)
 
-+ Optional visual overlay for model input/output
+3. Optional visual overlay for model input/output
 
-+ Toggle-based UI controls for enabling/disabling overlays
+4. Toggle-based UI controls for enabling/disabling overlays
 
-+ Confidence visualization (e.g., confidence label)
+5. Confidence visualization (e.g., confidence label)
 
-+ OpenXR-based XR configuration (no legacy XR)
+6. OpenXR-based XR configuration (no legacy XR)
 
-+ Fully documented build and deployment steps
+7. Fully documented build and deployment steps
 
 ## 3- System Architecture
 
@@ -105,36 +105,38 @@ Before building, ensure the following settings are configured:
 
  + Initialize XR on Startup: Enabled
 
-🧪 Build & Deployment Instructions
-Step 1 – Unity Build
+## 6- Build & Deployment Instructions
 
-Open the project in Unity
+### Step 1 – Unity Build
 
-Switch platform to UWP
++ Open the project in Unity
 
-Open Build Settings
++ Switch platform to UWP
 
-Click Build
++ Open Build Settings
 
-Choose an empty output folder
++ Click Build
 
-Step 2 – Visual Studio
++ Choose an empty output folder
 
-Open the generated .sln file
+### Step 2 – Visual Studio
 
-Set configuration:
++ Open the generated .sln file
 
-Release
++ Set configuration:
 
-ARM64
++ Release
 
-Local Machine
++ ARM64
 
-Build the solution
++ Local Machine
 
-(Optional) Create App Packages for Store or sideloading
++ Build the solution
 
-📦 Repository Structure
++ (Optional) Create App Packages for Store or sideloading
+
+## 7- Repository Structure
+
 📁 ProjectRoot
  ├── 📁 Assets
  ├── 📁 Packages
