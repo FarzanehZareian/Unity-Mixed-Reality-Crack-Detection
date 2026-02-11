@@ -65,13 +65,13 @@ The application is designed to be reproducible, extensible, and deployment-ready
 
 4- Visual Studio 2022
 
-    Universal Windows Platform development
++ Universal Windows Platform development
 
-    Desktop development with C++
++ Desktop development with C++
 
-    Windows 10 SDK (10.0.19041)
++ Windows 10 SDK (10.0.19041)
 
-    ARM64 build tools
++ ARM64 build tools
 
 ## Hardware (Optional)
 
