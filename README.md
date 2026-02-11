@@ -2,10 +2,10 @@
 
 ![Unity](https://img.shields.io/badge/Unity-2021.3%20LTS-black?logo=unity)
 ![Platform](https://img.shields.io/badge/Platform-UWP-blue)
-![Architecture](https://img.shields.io/badge/Architecture-ARM64-orange)
+![Architecture](https://img.shields.io/badge/Architecture-ARM64-yellow)
 ![Backend](https://img.shields.io/badge/Backend-IL2CPP-success)
 ![XR](https://img.shields.io/badge/XR-OpenXR-purple)
-![Build Status](https://img.shields.io/badge/UWP%20Build-Passing-brightgreen)
+![Build Status](https://img.shields.io/badge/UWP%20Build-Passing-pink)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
