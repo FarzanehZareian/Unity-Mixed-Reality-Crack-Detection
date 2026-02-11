@@ -29,8 +29,7 @@ The application is designed to be reproducible, extensible, and deployment-ready
 
 # System Architecture
 
-## Main components: ##
-
+## Main components: 
 1- Unity Engine – Core application logic and rendering
 
 2- MRTK Foundation – Input, spatial interaction, UI
