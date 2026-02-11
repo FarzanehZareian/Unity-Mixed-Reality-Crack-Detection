@@ -1,12 +1,11 @@
-# Project Title
-
-### *Integration of Deep Learning-Based Crack Recognition with Mixed Reality for Enhanced Structural Inspection of Masonry Structures*
+## *Integration of Deep Learning-Based Crack Recognition with Mixed Reality for Enhanced Structural Inspection of Masonry Structures*
 
 ## 1- Overview
 
 This project presents a Mixed Reality application developed using Unity and the Microsoft Mixed Reality Toolkit (MRTK), targeting HoloLens 2 and the Universal Windows Platform (UWP).
 
 The system integrates real-time visual processing with an interactive mixed reality interface, enabling users to visualize classification results, overlays, and confidence indicators directly within the physical environment.
+
 The application is designed to be reproducible, extensible, and deployment-ready.
 
 
@@ -16,11 +15,11 @@ The application is designed to be reproducible, extensible, and deployment-ready
 
 2. UWP-compatible build pipeline (IL2CPP, ARM64)
 
-3. Optional visual overlay for model input/output
+3. Visual overlay for model output
 
 4. Toggle-based UI controls for enabling/disabling overlays
 
-5. Confidence visualization (e.g., confidence label)
+5. Confidence visualization (e.g., confidence label, uncertainty heatmap)
 
 6. OpenXR-based XR configuration (no legacy XR)
 
@@ -30,35 +29,21 @@ The application is designed to be reproducible, extensible, and deployment-ready
 
 ### Main components: 
 
-+ Unity Engine – Core application logic and rendering
++ ***Unity Engine*** – Core application logic and rendering
 
-+ MRTK Foundation – Input, spatial interaction, UI
++ ***MRTK Foundation*** – Input, spatial interaction, UI
 
-+ OpenXR Plugin – XR runtime abstraction
++ ***OpenXR Plugin*** – XR runtime abstraction
 
-+ UWP Build Target – HoloLens deployment
++ ***UWP Build Target*** – HoloLens deployment
 
-+ Visual Studio 2022 – App packaging and deployment
-
-### High-level flow:
-
-+ Unity scene initializes MRTK and OpenXR
-
-+ User interacts with UI elements (toggles, buttons)
-
-+ Visual overlays and classification results are rendered
-
-+ Application is built via IL2CPP for ARM64
-
-+ Visual Studio generates UWP AppX/MSIX packages
++ ***Visual Studio 2022*** – App packaging and deployment
 
 ## 4- Requirements
 
 ### Software
 
-+ Unity Hub
-
-+ Unity Editor (Unity 2021.3.45f2)
++ Unity 2021.3.45f2
 
 + Microsoft Mixed Reality Toolkit (MRTK)
 
@@ -76,7 +61,7 @@ The application is designed to be reproducible, extensible, and deployment-ready
 
 + Microsoft HoloLens 2
 
-## 5- Unity Project Settings (Required)
+## 5- Unity Project Settings 
 
 Before building, ensure the following settings are configured:
 
@@ -102,9 +87,7 @@ Before building, ensure the following settings are configured:
 
  + OpenXR enabled
 
- + Initialize XR on Startup: Enabled
-
-## 6- Build & Deployment Instructions
+## 6- Build Instructions
 
 ### Step 1 – Unity Build
 
@@ -120,7 +103,7 @@ Before building, ensure the following settings are configured:
 
 ### Step 2 – Visual Studio
 
-+ Open the generated .sln file
++ Open the generated solution (.sln file)
 
 + Set configuration:
 
@@ -128,42 +111,11 @@ Before building, ensure the following settings are configured:
 
 + ARM64
 
-+ Local Machine
++ Remote Machine
 
 + Build the solution
 
 + (Optional) Create App Packages for Store or sideloading
-
-## 7- Repository Structure
-
-📁 ProjectRoot
-
- ├── 📁 Assets
- 
- ├── 📁 Packages
- 
- ├── 📁 ProjectSettings
- 
- ├── 📁 Documentation
-
- ├── README.md
- 
- ├── .gitignore
- 
- └── LICENSE
-
-
-⚠️ The following folders are intentionally excluded from Git:
-
-+ Library/
-
-+ Temp/
-
-+ Obj/
-
-+ Build/
-
-+ Logs/
 
 ## 8- Deployment Readiness Checklist
 
@@ -177,15 +129,8 @@ Before building, ensure the following settings are configured:
 
 ✅ App package generation supported
 
-✅ Documentation provided for reviewers
-
-## 9- Limitations
-
-1. Some features may require a physical HoloLens for full validation
-
-2. Visual Studio UWP tooling depends on installed workloads
-
-3. Performance profiling is limited without hardware
+**Note:** The repository validates successful compilation and build.  
+Runtime deployment was not performed due to lack of physical device (e.g., HoloLens).
 
 ### License
 
