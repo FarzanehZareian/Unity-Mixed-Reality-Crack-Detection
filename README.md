@@ -2,28 +2,24 @@
 
 ⟦Your Project Name Here⟧
 
-🧠 Overview
+
+# Overview
 
 This project presents a Mixed Reality application developed using Unity and the Microsoft Mixed Reality Toolkit (MRTK), targeting HoloLens 2 and the Universal Windows Platform (UWP).
 
 The system integrates real-time visual processing with an interactive mixed reality interface, enabling users to visualize classification results, overlays, and confidence indicators directly within the physical environment.
-The application is designed to be reproducible, extensible, and deployment-ready, even in the absence of physical HoloLens hardware.
+The application is designed to be reproducible, extensible, and deployment-ready.
 
-🎯 Key Features
 
-Mixed Reality user interface using MRTK
+# Key Features
 
-UWP-compatible build pipeline (IL2CPP, ARM64)
-
-Optional visual overlay for model input/output
-
-Toggle-based UI controls for enabling/disabling overlays
-
-Confidence visualization (e.g., confidence bar or label)
-
-OpenXR-based XR configuration (no legacy XR)
-
-Fully documented build and deployment steps
+1- Mixed Reality user interface using MRTK
+2- UWP-compatible build pipeline (IL2CPP, ARM64)
+3- Optional visual overlay for model input/output
+4- Toggle-based UI controls for enabling/disabling overlays
+5- Confidence visualization (e.g., confidence label)
+6- OpenXR-based XR configuration (no legacy XR)
+7- Fully documented build and deployment steps
 
 🏗️ System Architecture
 
