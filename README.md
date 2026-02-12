@@ -163,16 +163,11 @@ A successful UWP build confirms deployment readiness.
 
 ## Repository Structure
 
-Assets/           # Unity project assets
-
-Packages/         → Unity package manifest
-
-ProjectSettings/  → Unity configuration
-
-Docs/             → Architecture diagrams and documentation
-
-Screenshots/     → Visual references
-
+├── Assets/            # Core Unity project assets (scripts, scenes, prefabs, materials, etc.)
+├── Packages/          # Unity Package Manager manifest and dependencies
+├── ProjectSettings/   # Unity project configuration files
+├── Docs/              # Architecture diagrams and technical documentation
+└── Screenshots/       # Visual references and gameplay previews
 ---
 
 ## Limitations
