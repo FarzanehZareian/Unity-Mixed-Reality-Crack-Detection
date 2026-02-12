@@ -36,7 +36,25 @@ The project is structured for reproducibility, modularity, and deployment readin
 
 ## System Architecture
 
-The system consists of the following components:
+The system is organized into four modular layers to ensure clarity, scalability, and maintainability:
+
+1. **Input Acquisition Layer**  
+   - Captures real-time RGB data from the HoloLens camera stream.  
+   - Responsible for preprocessing and forwarding the data to the inference layer.
+
+2. **Inference Layer**  
+   - Executes the ONNX deep learning model via Unity Barracuda.  
+   - Performs crack detection, classification, and segmentation in real-time.
+
+3. **Visualization Layer**  
+   - Renders world-space bounding boxes over detected cracks.  
+   - Displays confidence and uncertainty metrics through the MR UI.
+
+4. **Deployment Layer**  
+   - Manages Unity IL2CPP build and ARM64 UWP packaging.  
+   - Enables deployment to HoloLens 2 via Visual Studio.
+
+This layered approach complements the existing components:
 
 - **Unity Engine** – Core application logic and rendering  
 - **Barracuda Inference Engine** – ONNX model execution  
@@ -45,7 +63,7 @@ The system consists of the following components:
 - **UWP Build Target** – HoloLens deployment platform  
 - **Visual Studio 2022** – Application packaging and validation  
 
-The architecture separates input acquisition, inference processing, visualization, and deployment layers to ensure modularity and extensibility.
+By structuring the system in this way, each layer remains modular, testable, and easy to extend for future functionality.
 
 ---
 
@@ -145,15 +163,15 @@ A successful UWP build confirms deployment readiness.
 
 ## Repository Structure
 
-Assets/ Unity project assets
+Assets/           → Unity project assets
 
-Packages/ Unity package manifest
+Packages/         → Unity package manifest
 
-ProjectSettings/ Unity configuration
+ProjectSettings/  → Unity configuration
 
-Docs/ Architecture diagrams and documentation
+Docs/             → Architecture diagrams and documentation
 
-Screenshots/ Visual references
+Screenshots/     → Visual references
 
 ---
 
