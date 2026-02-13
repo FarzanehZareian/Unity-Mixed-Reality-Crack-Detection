@@ -45,7 +45,7 @@ The project is structured for reproducibility, modularity, and deployment readin
 
 ## System Architecture
 
-The system is organized into four modular layers to ensure clarity, scalability, and maintainability:
+The system is organized into four modular layers to ensure clarity and scalability:
 
 1. **Input Acquisition Layer**  
    - Captures real-time RGB data from the HoloLens camera stream.  
@@ -70,7 +70,7 @@ The system is organized into four modular layers to ensure clarity, scalability,
 </p>
 
 
-This layered approach complements the existing components:
+So:
 
 - **Unity Engine** – Core application logic and rendering  
 - **Barracuda Inference Engine** – ONNX model execution  
