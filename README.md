@@ -1,4 +1,4 @@
-# Integration of Deep Learning-Based Crack Recognition with Mixed Reality for Structural Inspection
+# Integration of Deep Learning-Based Crack Recognition with Mixed Reality for Structural Inspection of Masonry Structures
 
 ![Unity](https://img.shields.io/badge/Unity-2021.3%20LTS-black?logo=unity)
 ![Platform](https://img.shields.io/badge/Platform-UWP-blue)
