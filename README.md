@@ -14,7 +14,7 @@
 
 This repository presents a Mixed Reality (MR) inspection system developed in Unity using the Microsoft Mixed Reality Toolkit (MRTK) and OpenXR. The application targets Microsoft HoloLens 2 via the Universal Windows Platform (UWP).
 
-The system integrates deep learning–based crack classification and segmentation with real-time holographic visualization. Model outputs are rendered as overlays within the user’s physical environment, enabling intuitive and interactive structural inspection.
+The system integrates deep learning–based crack type classification and semantic segmentation with real-time holographic visualization. Model outputs are rendered as overlays within the user’s physical environment, enabling intuitive and interactive structural inspection.
 
 The project is structured for reproducibility, modularity, and deployment readiness.
 
